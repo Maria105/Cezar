@@ -20,9 +20,9 @@ public class Cezar {
     }
 
     public  char[] decrypt(String message){
-        char[] simvols = new char[message.length()];
+        char[] symbols = new char[message.length()];
         for (int i = 0; i < message.length(); i++)
-            simvols[i] = (char) ((int) (message.charAt(i) - antkey));
-        return simvols;
+            symbols[i] = (char) ((int) (message.charAt(i) - antkey));
+        return symbols;
     }
 }
