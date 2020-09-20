@@ -13,10 +13,10 @@ public class Cezar {
 
 
     public char[] encrypt(String message) {
-        char[] simvols = new char[message.length()];
+        char[] symbols = new char[message.length()];
         for (int i = 0; i < message.length(); i++)
-            simvols[i] = (char) ((int) (message.charAt(i) + key));
-        return simvols;
+            symbols[i] = (char) ((int) (message.charAt(i) + key));
+        return symbols;
     }
 
     public  char[] decrypt(String message){
