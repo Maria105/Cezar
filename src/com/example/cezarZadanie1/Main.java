@@ -28,6 +28,7 @@ public class Main {
         symbols = cezar.encrypt(str1);
         System.out.println( symbols);
         System.out.println(cezar.decrypt(symbols.toString()));
+        System.out.println();
 
     }
 
